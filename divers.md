@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: Divers
+subtitle: Plein d'objets pour faire plein de choses avec
 subtitle: des ceintures des trucs des bidules faites votre choix blablabla
 image: assets/images/divers/divers1.jpg
 nav-menu: true

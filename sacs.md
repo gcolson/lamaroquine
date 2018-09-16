@@ -2,7 +2,7 @@
 layout: portfolio
 title: Sacs
 subtitle: Des sacs de toutes les tailles pour tous les goûts
-subtitle: Les sacs ils sont jolis blabla grands ou petits blablabla
+description: Les sacs ils sont jolis blabla grands ou petits blablabla
 image: assets/images/sac/sac1.jpg
 nav-menu: true
 ---
