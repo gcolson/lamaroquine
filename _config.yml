@@ -1,19 +1,14 @@
 # site settings
 title: La Maroquine
 subtitle: création en cuir faites main avec amour :)
-email: gregoire.colson@protonmail.com
+email: camille.boirayon@gmail.com
 phone: 06 88 34 03 88
 description: Je vous propose une panoplie de créations en cuir entièrement faites à la main.
 logo: 'assets/images/logo.png'
 
-baseurl: "/lamaroquine" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Grégoire Colson
-street_address: 
-city: Talencieux
-zip_code: 07340
-country: 
-phone: 
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
