@@ -12,7 +12,7 @@
 
         {% include header.html %}
 
-        <section id="banner" class="style2">
+        <section id="banner" class="style1">
             <div class="inner">
                 <span class="image">
                     <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
@@ -24,9 +24,13 @@
                 </header>
                 <div class="content">
 
-                    {{ page.subtitle }}
+                    {{ page.description }}
 
                 </div>
+                <ul class="actions">
+                    <li><a href="/#one" class="button next scrolly">Mes autres créations</a></li>
+                    <li><a href="#contact" class="button scrolly">Me contacter</a></li>
+                </ul>
             </div>
         </section>
 
