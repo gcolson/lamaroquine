@@ -4,15 +4,24 @@ backend:
 # This line should *not* be indented
 media_folder: "assets/images" # Media files will be stored in the repo under images/uploads
 collections:
-  - name: "pages" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages" # Used in the UI
+  - name: "Portfolio pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Portfolio Pages" # Used in the UI
     folder: "/" # The path to the folder where the documents are stored
+    filter: {field: 'layout', value: 'portfolio'}
     create: false # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "portfolio"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sous-titre", name: "subtitle", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Nav menu", name: "nav-menu", widget: "boolean", default: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Image principale", name: "image", widget: "image"}
+      - {label: "Image 1", name: "image1", widget: "image"}
+      - {label: "Image 2", name: "image2", widget: "image"}
+      - {label: "Image 3", name: "image3", widget: "image"}
+      - {label: "Image 4", name: "image4", widget: "image"}
+      - {label: "Image 5", name: "image5", widget: "image"}
+      - {label: "Image 6", name: "image6", widget: "image"}
+      - {label: "Image 7", name: "image7", widget: "image"}
+      - {label: "Image 8", name: "image8", widget: "image"}
+      - {label: "Image 9", name: "image9", widget: "image"}
