@@ -2,6 +2,7 @@
 layout: portfolio
 title: Blagues à tabac
 description: Des blagues à tabac pour tout le monde
+image: assets/images/blague_tabac/blague_tabac1.jpg
 images_folder: blague_tabac
 nav-menu: true
 ---

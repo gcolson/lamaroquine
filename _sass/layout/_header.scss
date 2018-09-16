@@ -36,13 +36,19 @@
 			line-height: inherit;
 			padding: 0 1.5em;
 
+			img {
+				display: inline-block;
+				vertical-align: middle;
+				padding: 0 0.325em;
+				height: 70%;
+			}
+
 			strong {
 				@include vendor('transition', (
 					'background-color #{_duration(transition)} ease-in-out',
 					'color #{_duration(transition)} ease-in-out'
 				));
-				background-color: _palette(fg-bold);
-				color: _palette(bg);
+				color: _palette(fg_bold);
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;

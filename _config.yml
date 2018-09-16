@@ -3,6 +3,7 @@ title: La Maroquine
 subtitle: création en cuir faites main avec amour :)
 email: gregoire.colson@protonmail.com
 description: Je vous propose une panoplie de créations en cuir entièrement faites à la main.
+logo: 'assets/images/logo.png'
 
 baseurl: "/lamaroquine" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
