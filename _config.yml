@@ -1,0 +1,31 @@
+# site settings
+title: La Maroquine
+subtitle: création en cuir faites main avec amour :)
+email: gregoire.colson@protonmail.com
+description: Je vous propose une panoplie de créations en cuir entièrement faites à la main.
+
+baseurl: "/lamaroquine" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author: Grégoire Colson
+street_address: 
+city: Talencieux
+zip_code: 07340
+country: 
+phone: 
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+facebook_url: https://www.facebook.com/la.maroquine/
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url: https://www.instagram.com/la.maroquine/
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
