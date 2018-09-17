@@ -4,15 +4,28 @@ backend:
 # This line should *not* be indented
 media_folder: "assets/images" # Media files will be stored in the repo under images/uploads
 collections:
-  - name: "Portfolio pages" # Used in routes, e.g., /admin/collections/blog
-    label: "Portfolio Pages" # Used in the UI
+  - name: "home-page" # Used in routes, e.g., /admin/collections/blog
+    label: "Page d'accueil" # Used in the UI
+    folder: "/" # The path to the folder where the documents are stored
+    filter: {field: 'layout', value: 'home'}
+    create: false # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Sous-titre", name: "landing-title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Actualités", name: "news", widget: "string"}
+      - {label: "Image principale", name: "image", widget: "image"}
+  - name: "portfolio-pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages des créations" # Used in the UI
     folder: "/" # The path to the folder where the documents are stored
     filter: {field: 'layout', value: 'portfolio'}
     create: false # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "portfolio"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Titre", name: "title", widget: "string"}
       - {label: "Sous-titre", name: "subtitle", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Image principale", name: "image", widget: "image"}
