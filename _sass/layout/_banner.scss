@@ -93,6 +93,15 @@
 				}
 			}
 
+			.img {
+				float: left;
+				margin-right: 1em;
+
+				img {
+					max-height: 9em;
+				}
+			}
+
 			.infos {
 				@include vendor('display', 'flex');
 				@include vendor('align-items', 'center');
