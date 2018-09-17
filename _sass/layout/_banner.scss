@@ -178,6 +178,23 @@
 			background-attachment: scroll;
 		}
 
+		@include breakpoint(medium) {
+ 			&.major {
+				height: auto;
+				min-height: 0;
+				max-height: none;
+				text-align: center;
+
+				.news {
+					position: relative;
+					width: 100% !important;
+					max-width: 200px;
+					margin: auto;
+					top: 0;
+				}
+			}
+   		}
+
 		@include breakpoint(small) {
 			@include padding(3em, 0, (2em, 0, 0, 0));
 			height: auto;
@@ -199,12 +216,15 @@
 						margin-bottom: _size(element-margin);
 					}
 				}
-			}
 
-			&.major {
-				height: auto;
-				min-height: 0;
-				max-height: none;
+				.img {
+					display: none;
+				}
+
+				.infos {
+					display: block;
+					text-align: justify;
+				}
 			}
 		}
 
@@ -222,7 +242,7 @@
 			}
 
 			&.major {
-				@include padding(6em, 0, (2em, 0, 0, 0));
+				@include padding(2em, 0, (2em, 0, 0, 0));
 			}
 		}
 	}
