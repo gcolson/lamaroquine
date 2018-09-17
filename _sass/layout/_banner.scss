@@ -123,6 +123,27 @@
 			&.alt {
 				  opacity: 0.75;
 			}
+
+			.news {
+				p, h1, h2, h3, h4, h5, h6 {
+					text-align: center;
+					margin-bottom: 0.5em;
+				}
+
+				p {
+					line-height: 1.2em;
+					font-weight: _font(weight-bold);
+					color: _palette(fg)
+				}
+
+				position: absolute;
+				top: -50px;
+				right: 0;
+				background: _palette(bg-alt);
+				color: _palette(fg);
+				padding: 0.5em 1em;
+				max-width: 300px;
+			}
 		}
 
 		&.style1 { &:after { background-color: _palette(accent1); } }
