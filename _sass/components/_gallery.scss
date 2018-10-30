@@ -6,11 +6,16 @@
   //position: relative;
 }
 .img-c {
-  width: 300px;
+  width: 31%;
   height: 300px;
   float: left;
   position: relative;
   overflow: hidden;
+  @include breakpoint(small) {
+    width: 48%;
+    height: 200px;
+  }
+  margin: 1%;
 }
 
 .img-w {
@@ -68,6 +73,14 @@
       display: block;
       margin: auto;
       height: 100%;
+
+      @include breakpoint(small) {
+        height: auto;
+        width: 100%;
+        top: 50%;
+        transform: translate(0, -50%);
+        position: absolute;
+      }
     }
   }
 }
