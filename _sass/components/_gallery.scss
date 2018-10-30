@@ -1,0 +1,73 @@
+.gallery {
+  width: 100%;
+  margin: auto;
+  border-radius: 3px;
+  overflow: hidden;
+  //position: relative;
+}
+.img-c {
+  width: 300px;
+  height: 300px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-w {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
+}
+
+.img-w img {
+  display: block;
+  opacity: 0;
+  transition: opacity ease-in-out 500ms;
+}
+
+.img-c {
+  // img {
+    // transition: width ease 400ms, height ease 350ms;
+  // }
+}
+
+.img-c:hover .img-w {
+  transform: scale(1.08);
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
+}
+
+.img-c.active {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  z-index: 2;
+  //transform: translateX(-50%);
+}
+
+.img-c.postactive {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.img-c.active.positioned {
+  left: 0 !important;
+  top: 0 !important;
+  z-index: 9999999;
+
+  .img-w {
+    position: fixed;
+    background: transparentize(_palette(bg), 0.1) !important;
+
+    img {
+      opacity: 1;
+      display: block;
+      margin: auto;
+      height: 100%;
+    }
+  }
+}

@@ -22,22 +22,17 @@ nav-menu: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<span class="image fit"><img src="{{ page.image }}" alt="" /></span>
-		<div class="box alt">
-			<div class="row 50% uniform">
-				<div class="4u"><span class="image fit"><img src="{{ page.image1 }}" alt="" /></span></div>
-				<div class="4u"><span class="image fit"><img src="{{ page.image2 }}" alt="" /></span></div>
-				<div class="4u$"><span class="image fit"><img src="{{ page.image3 }}" alt="" /></span></div>
-				<!-- Break -->
-				<div class="4u"><span class="image fit"><img src="{{ page.image4 }}" alt="" /></span></div>
-				<div class="4u"><span class="image fit"><img src="{{ page.image5 }}" alt="" /></span></div>
-				<div class="4u$"><span class="image fit"><img src="{{ page.image6 }}" alt="" /></span></div>
-				<!-- Break -->
-				<div class="4u"><span class="image fit"><img src="{{ page.image7 }}" alt="" /></span></div>
-				<div class="4u"><span class="image fit"><img src="{{ page.image8 }}" alt="" /></span></div>
-				<div class="4u$"><span class="image fit"><img src="{{ page.image9 }}" alt="" /></span></div>
-				<!-- Break -->
-			</div>
+		<!-- <span class="image fit"><img src="{{ page.image }}" alt="" /></span> -->
+		<div class="gallery">
+		  <div class="img-w" ><img src="{{ page.image1 }}" alt="" /></div>
+		  <div class="img-w" ><img src="{{ page.image2 }}" alt="" /></div>
+		  <div class="img-w" ><img src="{{ page.image3 }}" alt="" /></div>
+		  <div class="img-w" ><img src="{{ page.image4 }}" alt="" /></div>
+		  <div class="img-w" ><img src="{{ page.image5 }}" alt="" /></div>
+		  <div class="img-w" ><img src="{{ page.image6 }}" alt="" /></div>
+		  <div class="img-w" ><img src="{{ page.image7 }}" alt="" /></div>
+		  <div class="img-w" ><img src="{{ page.image8 }}" alt="" /></div>
+		  <div class="img-w" ><img src="{{ page.image9 }}" alt="" /></div>
 		</div>
 	</div>
 </section>
