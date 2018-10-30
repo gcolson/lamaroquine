@@ -21,20 +21,20 @@
                     <p>{{ page.news }}</p>
                 </div>
                 <h1>{{ page.landing-title }}</h1>
+                <p class="site-description">{{ site.description }}</p>
             </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
+            <div class="home-description">
+                <div class="img">
+                    <img src="assets/images/caboi.jpg">
+                </div>
+                <div class="infos">
+                    <p>{{ content }}</p>
+                </div>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Voir mes créations</a></li>
+                    <li><a href="#contact" class="button scrolly">Me contacter</a></li>
+                </ul>
             </div>
-            <div class="img">
-                <img src="assets/images/caboi.jpg">
-            </div>
-            <div class="infos">
-                <p>{{ content }}</p>
-            </div>
-            <ul class="actions">
-                <li><a href="#one" class="button next scrolly">Voir mes créations</a></li>
-                <li><a href="#contact" class="button scrolly">Me contacter</a></li>
-            </ul>
         </div>
     </section>
 
