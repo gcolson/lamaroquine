@@ -3,7 +3,7 @@ layout: portfolio
 title: Blagues à tabac
 subtitle: Des blagues à tabac méga fun !
 description: Les blagues à tabac blablabla bla bla blabla blablabla yop
-image: assets/images/blague_tabac1.jpg
+image: /assets/images/blagues.jpg
 image1: assets/images/blague_tabac2.jpg
 image2: assets/images/blague_tabac3.jpg
 image3: assets/images/blague_tabac7.jpg
@@ -13,29 +13,5 @@ image6: assets/images/blague_tabac8.jpg
 image7: assets/images/blague_tabac1.jpg
 image8: assets/images/blague_tabac4.jpg
 image9: assets/images/blague_tabac9.jpg
-nav-menu: true
 ---
 
-<!-- Main -->
-<div id="main">
-
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<!-- <span class="image fit"><img src="{{ page.image }}" alt="" /></span> -->
-		<!-- <div class="box alt"> -->
-	  <div class="gallery">
-		  <div class="img-w" ><img src="{{ page.image1 }}" alt="" /></div>
-		  <div class="img-w" ><img src="{{ page.image2 }}" alt="" /></div>
-		  <div class="img-w" ><img src="{{ page.image3 }}" alt="" /></div>
-		  <div class="img-w" ><img src="{{ page.image4 }}" alt="" /></div>
-		  <div class="img-w" ><img src="{{ page.image5 }}" alt="" /></div>
-		  <div class="img-w" ><img src="{{ page.image6 }}" alt="" /></div>
-		  <div class="img-w" ><img src="{{ page.image7 }}" alt="" /></div>
-		  <div class="img-w" ><img src="{{ page.image8 }}" alt="" /></div>
-		  <div class="img-w" ><img src="{{ page.image9 }}" alt="" /></div>
-		</div>
-	</div>
-</section>
-
-</div>
