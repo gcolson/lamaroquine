@@ -15,7 +15,7 @@
         <section id="banner" class="style1">
             <div class="inner">
                 <span class="image">
-                    <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
+                    <img src="{{ site.baseurl }}{{ page.image }}" alt="">
                 </span>
                 <header class="major">
 
@@ -34,7 +34,27 @@
             </div>
         </section>
 
-    {{ content }}
+        <div id="main">
+
+        <!-- One -->
+            <section id="one">
+                <div class="inner">
+                    <!-- <span class="image fit"><img src="{{ page.image }}" alt="" /></span> -->
+                    <div class="gallery">
+                      <div class="img-w" ><img src="{{ page.image1 }}" alt="" /></div>
+                      <div class="img-w" ><img src="{{ page.image2 }}" alt="" /></div>
+                      <div class="img-w" ><img src="{{ page.image3 }}" alt="" /></div>
+                      <div class="img-w" ><img src="{{ page.image4 }}" alt="" /></div>
+                      <div class="img-w" ><img src="{{ page.image5 }}" alt="" /></div>
+                      <div class="img-w" ><img src="{{ page.image6 }}" alt="" /></div>
+                      <div class="img-w" ><img src="{{ page.image7 }}" alt="" /></div>
+                      <div class="img-w" ><img src="{{ page.image8 }}" alt="" /></div>
+                      <div class="img-w" ><img src="{{ page.image9 }}" alt="" /></div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
 
     {% include footer.html %}
 
