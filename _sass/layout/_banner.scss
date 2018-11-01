@@ -42,6 +42,7 @@
 
 		h1 {
 			font-size: 3.25em;
+			margin-bottom: 0;
 		}
 
 		> .inner {
@@ -133,6 +134,8 @@
 			max-height: 50em;
 
 			.site-description {
+				font-family: _font(family-head);
+				font-size: 1em;
 				text-transform: uppercase;
 				margin-bottom: 4em;
 			}
@@ -149,6 +152,7 @@
 
 				p {
 					line-height: 1.2em;
+					font-size: 0.8em;
 					font-weight: _font(weight-bold);
 					color: _palette(fg)
 				}
@@ -160,6 +164,10 @@
 				color: _palette(fg);
 				padding: 0.5em 1em;
 				max-width: 300px;
+
+				&:after {
+					display: none;
+				}
 			}
 		}
 

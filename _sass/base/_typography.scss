@@ -3,6 +3,14 @@
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
+@font-face {
+    font-family: 'dominiqueregular';
+    src: url('../fonts/dominique-webfont.woff2') format('woff2'),
+         url('dominique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* Type */
 
@@ -62,6 +70,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
+		font-family: _font(family-head);
 		line-height: 1.65;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 
