@@ -39,3 +39,14 @@ collections:
       - {label: "Image 7", name: "image7", widget: "image", required: false}
       - {label: "Image 8", name: "image8", widget: "image", required: false}
       - {label: "Image 9", name: "image9", widget: "image", required: false}
+      - {label: "Image 10", name: "image9", widget: "image", required: false}
+      - {label: "Image 11", name: "image1", widget: "image", required: false}
+      - {label: "Image 12", name: "image2", widget: "image", required: false}
+      - {label: "Image 13", name: "image3", widget: "image", required: false}
+      - {label: "Image 14", name: "image4", widget: "image", required: false}
+      - {label: "Image 15", name: "image5", widget: "image", required: false}
+      - {label: "Image 16", name: "image6", widget: "image", required: false}
+      - {label: "Image 17", name: "image7", widget: "image", required: false}
+      - {label: "Image 18", name: "image8", widget: "image", required: false}
+      - {label: "Image 19", name: "image9", widget: "image", required: false}
+      - {label: "Image 20", name: "image9", widget: "image", required: false}
