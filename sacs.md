@@ -4,9 +4,7 @@ title: Sacs
 subtitle: >-
   Plusieurs sacs de tailles, de formes et de couleurs différentes pour tous les
   goûts.
-description: >-
-  Côté cuir ou côté croûte, tous les sacs ont une anse réglable et sont nourris
-  a la cire d'abeille .
+description: ' '
 image: /assets/images/sacs.jpg
 image1: /assets/images/p1560516-1.jpg
 image2: /assets/images/p1560439-1.jpg
