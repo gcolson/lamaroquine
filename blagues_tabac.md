@@ -15,5 +15,7 @@ image6: assets/images/blague_tabac8.jpg
 image7: assets/images/blague_tabac1.jpg
 image8: assets/images/blague_tabac4.jpg
 image9: assets/images/blague_tabac9.jpg
+image10: /assets/images/blagues.jpg
+image11: /assets/images/blague_tabac10.jpg
 ---
 
