@@ -1,8 +1,12 @@
 ---
 layout: portfolio
 title: Sacs
-subtitle: Des sacs si stylés qu'on fait "waah" quand on les voit
-description: Les sacs ils sont jolis blabla grands ou petits blablabla
+subtitle: >-
+  Plusieurs sacs de tailles, de formes et de couleurs différentes pour tous les
+  goûts.
+description: >-
+  Côté cuir ou côté croûte, tous les sacs ont une anse réglable et sont nourris
+  a la cire d'abeille .
 image: /assets/images/sacs.jpg
 image1: /assets/images/p1560516-1.jpg
 image2: /assets/images/p1560439-1.jpg
