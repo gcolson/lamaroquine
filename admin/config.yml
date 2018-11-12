@@ -7,7 +7,7 @@ collections:
   - name: "home-page" # Used in routes, e.g., /admin/collections/blog
     label: "Page d'accueil" # Used in the UI
     folder: "/" # The path to the folder where the documents are stored
-    # filter: {field: 'layout', value: 'home'}
+    filter: {field: 'layout', value: 'home'}
     create: false # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -22,9 +22,7 @@ collections:
   - name: "portfolio-pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages des créations" # Used in the UI
     folder: "/" # The path to the folder where the documents are stored
-    filter: 
-      field: layout, 
-      value: portfolio
+    filter: {field: 'layout', value: 'portfolio'}
     create: true # Allow users to create new documents in this collection
     # slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
