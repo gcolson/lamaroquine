@@ -20,9 +20,11 @@ collections:
   - name: "portfolio-pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages des créations" # Used in the UI
     folder: "/" # The path to the folder where the documents are stored
-    filter: {field: 'layout', value: 'portfolio'}
+    filter: 
+      field: layout, 
+      value: portfolio
     create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    # slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "portfolio"}
       - {label: "Show", name: "show_tile", widget: "hidden", default: "true"}
