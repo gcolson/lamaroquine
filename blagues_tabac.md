@@ -1,8 +1,10 @@
 ---
 layout: portfolio
 title: Blagues à tabac
-subtitle: Des blagues à tabac méga fun !
-description: Les blagues à tabac blablabla bla bla blabla blablabla yop
+subtitle: >-
+  Des blagues à tabac en cuir, de la plus simple à la plus élaborée, pour toutes
+  les envies.
+description: ' '
 image: /assets/images/blagues.jpg
 image1: assets/images/blague_tabac2.jpg
 image2: assets/images/blague_tabac3.jpg
