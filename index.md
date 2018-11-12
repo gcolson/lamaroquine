@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Bienvenue
-landing-title: chez la Maroquine !
+title: Home
+landing-title: Bienvenue chez la Maroquine !
 description: >-
   Je vous propose une panoplie de créations en cuir entièrement faites à la
   main.
