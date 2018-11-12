@@ -7,16 +7,18 @@ collections:
   - name: "home-page" # Used in routes, e.g., /admin/collections/blog
     label: "Page d'accueil" # Used in the UI
     folder: "/" # The path to the folder where the documents are stored
-    filter: {field: 'layout', value: 'home'}
+    # filter: {field: 'layout', value: 'home'}
     create: false # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+      - {label: "Show", name: "show_tile", widget: "hidden", default: "false"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Sous-titre", name: "landing-title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Actualités", name: "news", widget: "string"}
       - {label: "Image principale", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "portfolio-pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages des créations" # Used in the UI
     folder: "/" # The path to the folder where the documents are stored
