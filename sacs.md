@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: Sacs
+show_tile: true
 subtitle: >-
   Plusieurs sacs de tailles, de formes et de couleurs différentes pour tous les
   goûts.

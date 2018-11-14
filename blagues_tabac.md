@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: Blagues à tabac
+show_tile: true
 subtitle: >-
   Des blagues à tabac en cuir, de la plus simple à la plus élaborée, pour toutes
   les envies.

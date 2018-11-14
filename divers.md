@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: Divers
+show_tile: true
 subtitle: D'autres objets en cuir par ici
 description: 'Porte monnaie, ceinture, bourses, portes chéquiers, trousses'
 image: /assets/images/background.jpg
