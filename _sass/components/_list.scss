@@ -68,6 +68,7 @@
 
 			li {
 				display: inline-block;
+				margin: 0;
 				padding: 0.5em (_size(element-margin) * 0.5) 0.5em 0;
 				vertical-align: middle;
 
@@ -75,6 +76,17 @@
 					padding-right: 0;
 				}
 			}
+
+			@include breakpoint(small) {
+				margin-bottom: 0;
+
+				li {
+					padding-right: 0;
+					text-align: center;
+					width: 100%;
+				}
+			}
+
 
 			&.small {
 				li {

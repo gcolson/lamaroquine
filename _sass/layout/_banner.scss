@@ -166,9 +166,15 @@
 				padding: 0.5em 1em;
 				max-width: 300px;
 
-				&:after {
-					display: none;
+			}
+
+			header {
+				> :first-child {
+					&:after {
+						display: none;
+					}
 				}
+				
 			}
 		}
 
@@ -238,9 +244,18 @@
 					display: none;
 				}
 
-				.infos {
-					display: block;
-					text-align: justify;
+				.home-description {
+					margin-top: 2em;
+					
+					.infos {
+						display: block;
+						text-align: justify;
+						@include vendor('flex-direction', 'column');
+
+						p {
+							margin-bottom: 1em;
+						}
+					}
 				}
 			}
 		}

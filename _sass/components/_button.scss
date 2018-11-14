@@ -130,4 +130,8 @@
 			cursor: default;
 			opacity: 0.25;
 		}
+
+		@include breakpoint(small) {
+			letter-spacing: _font(letter-spacing);
+		}
 	}
